@@ -10,6 +10,8 @@ import java.util.Scanner;
  * @see <a href="https://cs125.cs.illinois.edu/lab/4/">Lab 4 Description</a>
  */
 public class Colosseum {
+
+
     /**
      * The maximum number of hit points we will allow a Pokemon to start with.
      */
@@ -35,6 +37,10 @@ public class Colosseum {
      * Useful functions: next(), nextInt() .
      */
     static Scanner myScan;
+    myScan = new Scanner(system.in);
+
+
+
 
     /**
      * How we will build our Pokemon to battle.
